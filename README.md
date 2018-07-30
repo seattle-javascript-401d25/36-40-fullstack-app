@@ -9,6 +9,8 @@
   * Submit a pull request to your forked repository
   * Submit a link to your pull request on canvas
   * Submit a question, observation, and how long you spent on canvas  
+  * Submit the Github URL to the backend repo you selected
+  * Submit any necessary `.env` variables for BOTH your backend and front end projects so that TA's can have an easier time configuring their environments
 
 ## Configuration  
 #### backend/
