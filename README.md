@@ -40,7 +40,7 @@ Provider
 * Implement a Landing route that allows a user to signup and login to the application.
 * Manage the frontend routes based on the clients authorization
   * If the user is not logged in, they should be forced to view the Landing page at `/, /signup, or /login`.
-  * If the user is logged in, they should always view the Dashboard page at `/dashboard`
+  * If the user is logged in, they should view the Dashboard page at `/dashboard`
  
 ## Testing 
 * These testing requirements are not due until the last day of this rolling lab. TA's will *not* take away points for this specific lab if you don't have Cypress tests ready. **However, it is strongly recommended you still write your tests today**. 
