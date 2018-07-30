@@ -13,11 +13,11 @@
   * Submit any necessary `.env` variables for BOTH your backend and front end projects so that TA's can have an easier time configuring their environments
 
 ## Configuration  
-#### backend/
+#### backend
 * Select your midterm project OR your Lab 18 as your backend API that interacts with your front end
 * Add a `CORS_ORIGINS` variable in your `.env` file of your backend project
 * Make the necessary CORS changes per lecture code in your `lib/server.js` module so that your front end origin can communicate with your back end server
-#### frontend /
+#### frontend
 * Follow lecture code's scaffolding
   
  
@@ -42,6 +42,7 @@ Provider
 * Manage the frontend routes based on the clients authorization
   * If the user is not logged in, they should be forced to view the Landing page at `/, /signup, or /login`.
   * If the user is logged in, they should always view the Dashboard page at `/dashboard`
+* Add styling to your app if time allows
  
 ## Testing
 * Testing requirements are not due until the last day of this rolling lab, **but it is strongly recommended you start testing today**. 
