@@ -15,7 +15,7 @@
 #### backend
 * Select your midterm project OR your Lab 18 as your backend API that interacts with your front end
 * Add a `CORS_ORIGINS` variable in your `.env` file of your backend project
-* Make the necessary CORS changes per lecture code in your `lib/server.js` module so that your front end origin can communicate with your back end server
+* Make the necessary CORS changes [per lecture code](https://github.com/codefellows/seattle-javascript-401d25/blob/master/back-end/18-asset-management/aws-s3-asset-mgt/src/lib/server.js) in your `lib/server.js` module so that your front end origin can communicate with your back end server
 #### frontend
 * Follow lecture code's scaffolding
   
