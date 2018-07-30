@@ -5,7 +5,6 @@
   * **This is a rolling lab that that will last through Friday. All subsequent assignments this week require that you have a *mid-term project* or a *substantially finished Lab 18* that implement account and profile creation with basic auth and bearer auth. If, for some reason, those projects are not suitable for these current lab assignments, you may use [Lecture 18](https://github.com/codefellows/seattle-javascript-401d25/tree/master/back-end/18-asset-management) as your backup. *However*, you can only get a maximum of 9 points if you do this.**
   * Work in a fork of this repository
   * Work in a branch on your fork
-  * Set up Travis CI and update your repo to utilize the [Travis CI Github app](https://github.com/marketplace/travis-ci). *Use the free instsallation.* 
   * Submit a pull request to your forked repository
   * Submit a link to your pull request on canvas
   * Submit a question, observation, and how long you spent on canvas  
@@ -42,10 +41,9 @@ Provider
 * Manage the frontend routes based on the clients authorization
   * If the user is not logged in, they should be forced to view the Landing page at `/, /signup, or /login`.
   * If the user is logged in, they should always view the Dashboard page at `/dashboard`
-* Add styling to your app if time allows
  
 ## Testing 
-* Testing requirements are not due until the last day of this rolling lab, **but it is strongly recommended you start testing today**. 
+* These testing requirements are not due until the last day of this rolling lab. TA's will *not* take away points for this specific lab if you don't have Cypress tests ready. **However, it is strongly recommended you still write your tests today**. 
 * Use Cypress to test the following scenario:
     * A user travels to the homepage at `/`
     * A user clicks `Sign up` on your nav menu to travel to `/signup`
@@ -55,6 +53,12 @@ Provider
     * User enters their username and password to authorize themselves into the app
     * The `Dashboard` page properly appears indicating the user has been authorized
  * You must stub your responses and set an `isStubbed` boolean variable in your test. Submit your tests with this boolean set to true so that TA's do not have to make requests to a real server to run your Cypress tests
+ 
+ ## Stretch Goals
+ * Make a route on your backend strictly for front end testing purposes so you can delete resources from the Mongo database after your Cypress test completes.
+ * Write Cypress tests for error handling, i.e. if a user submits a form without a username or email or password. This means you should also include UI that clearly alerts the user they made a bad request, e.g. a red border around a a required input field.
+ * Add styling to your app
+ 
 
 ##  Documentation  
 Write a description of the project in your README.md
