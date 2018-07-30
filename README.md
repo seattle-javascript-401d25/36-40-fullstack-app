@@ -44,7 +44,7 @@ Provider
   * If the user is logged in, they should always view the Dashboard page at `/dashboard`
 * Add styling to your app if time allows
  
-## Testing
+## Testing 
 * Testing requirements are not due until the last day of this rolling lab, **but it is strongly recommended you start testing today**. 
 * Use Cypress to test the following scenario:
     * A user travels to the homepage at `/`
