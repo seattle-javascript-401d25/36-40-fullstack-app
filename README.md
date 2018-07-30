@@ -1,5 +1,5 @@
 ![cf](https://i.imgur.com/7v5ASc8.png) 
-# 401 JS --  Lab 36 Full-Stack Auth
+# 401 JS --  Lab 36 - Async Actions with Signup and Login
 
 ## Submission Instructions
   * **This is a rolling lab that that will last through Friday. All subsequent assignments this week require that you have a *mid-term project* or a *substantially finished Lab 18* that implement account and profile creation with basic auth and bearer auth. If, for some reason, those projects are not suitable for these current lab assignments, you may use [Lecture 18](https://github.com/codefellows/seattle-javascript-401d25/tree/master/back-end/18-asset-management) as your backup. *However*, you can only get a maximum of 9 points if you do this.**
