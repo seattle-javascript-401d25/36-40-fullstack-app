@@ -34,7 +34,7 @@
         * Add changes to your Token reducer that fetches your cookie token
 * Ensure that if a token cookie is set in your browser, you always remain logged in.
 * If a user clicks the `Log Out` button, that should clear the the token cookie and force you to sign up or login again
-* Your profile component be successfully updated when the form is submitted in Edit mode
+* Your profile component should be successfully updated when the form is submitted in Edit mode
 
  
 ## Testing 
