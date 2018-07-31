@@ -44,6 +44,7 @@
  * Same as previous lab
  * Additional testing with Cypress
  * Create multiple profiles and display those profiles in a list when your pathname is `/profiles`, i.e. a Facebook friends list. (This also involves having a backend route that fetches all profiles).
+ * Include your token as a localStorage item and make checks to see if exists so you can recreate a user session similar to how the cookie works. Remember that the cookie will only work through `localhost` and NOT work on a deployed Heroku app unless you purchase a domain name. Setting up your token in localStorage can be a workaround.
  
 
 ##  Documentation  
