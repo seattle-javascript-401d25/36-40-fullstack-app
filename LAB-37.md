@@ -37,7 +37,8 @@
 * Your profile component be successfully updated when the form is submitted in Edit mode
 
  
-## Testing (don't worry about this today)
+## Testing 
+ * No extra testing needed today, though *it is strongly recommended to complete the testing for [Lab 36](https://github.com/seattle-javascript-401d25/36-40-fullstack-app#testing-dont-worry-about-this-today)*
 
  
  ## Stretch Goals
