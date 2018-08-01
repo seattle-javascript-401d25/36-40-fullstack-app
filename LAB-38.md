@@ -4,7 +4,7 @@
 ## Submission Instructions
   * **This is a rolling lab that that will last through Friday. All subsequent assignments this week require that you have a *mid-term project* or a *substantially finished Lab 18* that implement account and profile creation with basic auth and bearer auth. If, for some reason, those projects are not suitable for these current lab assignments, you may use [Lecture 18](https://github.com/codefellows/seattle-javascript-401d25/tree/master/back-end/18-asset-management) as your backup. *However*, you can only get a maximum of 9 points if you do this.**
   * Please have different SCSS styles from lecture code or you will get a 0
-  * Conntinue working from your previous labs
+  * Continue working from your previous labs
   * Work in a branch on your fork
   * Submit a pull request to your forked repository
   * Submit a link to your pull request on canvas
