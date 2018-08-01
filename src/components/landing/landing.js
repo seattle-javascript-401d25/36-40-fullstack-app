@@ -44,7 +44,7 @@ class Landing extends React.Component {
       </ul>
     </div>;
 
-    const signupJSX = //eslint-disable-line
+    const signUpJSX = //eslint-disable-line
     <div>
       <h2>Sign up</h2>
       <AuthForm onComplete={ this.handleSignup }/>
