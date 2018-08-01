@@ -3,7 +3,6 @@
 require('dotenv').config();
 
 const { DefinePlugin } = require('webpack');
-
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const webpackConfig = module.exports = {};
@@ -18,7 +17,7 @@ webpackConfig.output = {
 
 webpackConfig.plugins = [
   new HtmlWebpackPlugin({
-    title: 'Expense Tracker App',
+    title: '36 Async Actions',
   }),
   new DefinePlugin({
     API_URL: JSON.stringify(process.env.API_URL),
@@ -39,7 +38,7 @@ webpackConfig.module.rules = [
       loader: 'babel-loader',
       options: {
         presets: ['env', 'stage-0', 'react'],
-        plugins: ['transform-react-jsx-source', 'transform-object-rest-spread', 'transform-class-properties'],
+        plugins: ['transform-react-jsx-source'],
         cacheDirectory: true,
       },
     },
