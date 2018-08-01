@@ -54,7 +54,7 @@ GOOGLE_OAUTH_ID=your-own-google-oauth-id
  
 ## Testing
 * These testing requirements are not due until the last day of this rolling lab. TA's will *not* take away points for this specific lab if you don't have Cypress tests ready. **However, it is strongly recommended you still write your tests today**. 
-* Continue from Monday's scenario after you succesfully signed up and logged in and add this scenario:
+* Continue from Monday's scenario after you succesfully signed up and logged in, and add this scenario:
     * A logged in user clicks on the `Profile` link
     * The Profile form appears and the user creates a new profile
     * The user edits the profile 
