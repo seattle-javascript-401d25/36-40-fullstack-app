@@ -4,7 +4,7 @@
 ## Submission Instructions
   * **This is a rolling lab that that will last through Friday. All subsequent assignments this week require that you have a *mid-term project* or a *substantially finished Lab 18* that implement account and profile creation with basic auth and bearer auth. If, for some reason, those projects are not suitable for these current lab assignments, you may use [Lecture 18](https://github.com/codefellows/seattle-javascript-401d25/tree/master/back-end/18-asset-management) as your backup. *However*, you can only get a maximum of 9 points if you do this.**
   * Please have different SCSS styles from lecture code or you will get a 0
-  * Work in a fork of this repository
+  * Conntinue working from your previous labs
   * Work in a branch on your fork
   * Submit a pull request to your forked repository
   * Submit a link to your pull request on canvas
@@ -36,6 +36,7 @@ API_URL=http://localhost:3000/api
 * Make a new `googleOAuth` router module that takes in a `code` from Google in order to initiate OAuth on the backend
 * Save a new acount in the Mongo database based off the Google response you received
 * If an existing user signs in again using Google, you should query the Mongo database for that user and set the user's token as a cookie in the browser
+* Use the comments in [lecture code](https://github.com/codefellows/seattle-javascript-401d25/blob/master/back-end/18-asset-management/aws-s3-asset-mgt/src/router/google-oauth-router.js) as a guide for how you should code this process out
 #### frontend
 * Follow current lecture's scaffolding
 * Your frontend `.env` should now look like this:
