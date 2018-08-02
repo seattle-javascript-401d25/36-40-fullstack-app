@@ -27,14 +27,12 @@ class Profile extends React.Component {
     };
   }
 
-  // TODO: resolve this flash of content
   componentDidMount() {
-    // debugger;
     this.props.fetchProfile()
       .then((response) => {
         console.log(response, 'what is response');
       })
-      .catch(console.error)
+      .catch(console.error);
   }
 
   handleCreate = (profile) => {
@@ -45,7 +43,6 @@ class Profile extends React.Component {
   }
 
   handleUpdate = (profile) => {
-    // TODO: add validation, i.e. catch blocks
     this.props.updateProfile(profile);
     this.setState({ editing: false });
   }
@@ -63,7 +60,7 @@ class Profile extends React.Component {
 
       JSXDisplay = // eslint-disable-line
       <div>
-        <h2>This is my bio</h2>
+        <h2>My Bio</h2>
         <p>{ profile.bio }</p>
         <button onClick={() => this.setState({ editing: true })}>Edit</button>
       </div>;
