@@ -43,7 +43,7 @@ API_URL=http://localhost:3000/api
 
  
 ## Testing 
-* None toady
+* None today
 
  
  ## Stretch Goals
