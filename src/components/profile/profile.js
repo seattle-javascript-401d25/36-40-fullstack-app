@@ -13,21 +13,20 @@ const mapStateToProps = store => ({
 
 const mapDispatchToProps = dispatch => ({
   createProfile: profile => dispatch(profileActions.createProfileRequest(profile)),
-  updateProfile: profile => dispatch(profileActions.updateProfileRequest(profile)), // we don't have this functionality in Lecture 18 backend
+  updateProfile: profile => dispatch(profileActions.updateProfileRequest(profile)),
   fetchProfile: profile => dispatch(profileActions.fetchProfileRequest(profile)),
 });
 
 class Profile extends React.Component {
   constructor(props) {
     super(props);
-    // this is UI state
+
     this.state = {
       editing: false,
       profile: props.profile || null,
     };
   }
 
-  // lifecycle hook from React itself
   // TODO: resolve this flash of content
   componentDidMount() {
     // debugger;
@@ -41,8 +40,6 @@ class Profile extends React.Component {
   handleCreate = (profile) => {
     this.props.createProfile(profile)
       .then(() => {
-        // The profile has been created, we inform/interact with the user
-        // this.props.history.push(routes.DASHBOARD_ROUTE);
         this.props.history.push(routes.PROFILE_ROUTE);
       });
   }
