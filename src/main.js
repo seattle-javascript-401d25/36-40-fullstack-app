@@ -3,7 +3,7 @@ import { render as renderDom } from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import reducer from './reducer.main';
+import reducer from './reducer/main';
 import App from './components/app/app';
 import thunk from './lib/middleware/redux-thunk';
 import reporter from './lib/middleware/redux-reporter';

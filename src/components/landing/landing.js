@@ -81,7 +81,7 @@ class Landing extends React.Component {
     }
 }
 
-Landing.PropTypes = {
+Landing.propTypes = {
   userLogin: PropTypes.func,
   userSignup: PropTypes.func,
   history: PropTypes.object,

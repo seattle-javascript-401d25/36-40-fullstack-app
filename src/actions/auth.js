@@ -10,7 +10,7 @@ export const removeToken = () => ({
   type: 'TOKEN_REMOVE',
 });
 
-export const userSignup = user = (store) => {
+export const userSignup = user => (store) => {
   return superagent.post(`${API_URL}${routes.SIGNUP_ROUTE}`)
     .send(user)
     .withCredentials()
