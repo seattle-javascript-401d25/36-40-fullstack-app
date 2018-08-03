@@ -12,11 +12,11 @@ export const removeToken = () => ({
 
 export const userSignup = user => (store) => {
   return superagent.post(`${API_URL}${routes.SIGNUP_ROUTE}`)
-  .send(user)
-  .withCredentials()
-  .then((response) => {
-    return store.dispatch(setToken(response.body.token));
-  });
+    .send(user)
+    .withCredentials()
+    .then((response) => {
+      return store.dispatch(setToken(response.body.token));
+    });
 };
 
 export const userLogin = user => (store) => {
