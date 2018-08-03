@@ -25,19 +25,22 @@
 * Ensure your front end has an `index.js` and you have installed Express via `npm i express` so you can serve your front end code through Heroku
 * Ensure your front end `package.json` has the following scripts in order to work properly:
 ```
-"start": "node index.js",
-"heroku-prebuild": "npm uninstall cypress && npm run build",
+"start": "npm run build && node index.js",
+"heroku-prebuild": "npm uninstall cypress",
 "heroku-postbuild": "webpack --progress --config webpack.prod.js"
 ```
 * Run the script `npm run build` in the root of your frontend code to generate a `build` folder that has all the bundled modules you need for your app (`main[hash].js, main[hash].css, index.html, any related image assets`)
 * Create a new S3 bucket and drop your bundled files into it
 * Go to Amazon Cloudfront in your AWS console and create a new CDN for your S3 bucket
 * Go to your Heroku settings of your deployed front end, click on `Config Vars`, and add a variable called `CDN_URL` equal to the AWS Cloudfront domain you generated
+* **Delete your build folder from your local project**
 
  
 ## Testing 
-* None today
- 
+* Review the prior labs that had testing requirements and **complete those testing requirements when you submit this lab**. 
+  * [Lab 36 Testing Requirements](https://github.com/seattle-javascript-401d25/36-40-fullstack-app#testing-dont-worry-about-this-today)
+  * [Lab 38 testing Requirements](https://github.com/seattle-javascript-401d25/36-40-fullstack-app/blob/master/LAB-38.md#testing)
+  
 
 ##  Documentation  
 Write a description of the project in your README.md. 
