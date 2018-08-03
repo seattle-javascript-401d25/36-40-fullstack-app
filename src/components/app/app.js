@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Landing from '../landing/landing';
 import Dashboard from '../dashboard/dashboard';
 import AuthRedirect from '../auth-redirect/auth-redirect';
+import Profile from '../profile/profile';
 
 export default class App extends React.Component {
   render() {
