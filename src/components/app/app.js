@@ -6,6 +6,8 @@ import Dashboard from '../dashboard/dashboard';
 import AuthRedirect from '../auth-redirect/auth-redirect';
 import Profile from '../profile/profile';
 
+import './app.scss';
+
 export default class App extends React.Component {
   render() {
     return (
