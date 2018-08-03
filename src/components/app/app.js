@@ -6,7 +6,7 @@ import Dashboard from '../dashboard/dashboard';
 import AuthRedirect from '../auth-redirect/auth-redirect';
 
 export default class App extends React.Component {
-  render () {
+  render() {
     return (
       <div className="app">
         <BrowserRouter>
