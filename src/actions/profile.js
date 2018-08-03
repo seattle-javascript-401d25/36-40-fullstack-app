@@ -14,7 +14,7 @@ export const createProfileRequest = profile => (store) => {
 
   return superagent.post(`${API_URL}${routes.PROFILE_ROUTE}`)
     .set('Authorization', `Bearer ${token}`)
-    .set('Content-Type', 'application/json') // TODO: is this needed?
+    .set('Content-Type', 'application/json')
     .send(profile)
     .then((response) => {
       return store.dispatch(setProfile(response.body));
