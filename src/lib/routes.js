@@ -4,4 +4,3 @@ export const ROOT_ROUTE = '/';
 export const DASHBOARD_ROUTE = '/dashboard';
 export const PROFILE_ROUTE = '/profiles';
 export const IMAGE_ROUTE = '/image';
-
