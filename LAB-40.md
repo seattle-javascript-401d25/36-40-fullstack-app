@@ -24,7 +24,7 @@
 ### backend
 * `NODE_ENV, PORT, and MONGODB_URI` env variables from your backend code **DO NOT** need to be manually input into your Heroku config vars, Heroku will give you these
   * Remember to provision mLab to get a `MONDODB_URI` in your Heroku config vars when deploying backend code
-  * Rewatch the [backend deployment lecture](https://www.youtube.com/watch?v=WmEaGQpXflo&index=25&list=PLVngfM2hsbi_nzdZ4BtnOQX2GvPpJlz44&t=0s) to remind yourself how to do deploy your backend code
+  * Rewatch the [backend deployment lecture](https://www.youtube.com/watch?v=nJHu_dNu7Nw&index=36&list=PLVngfM2hsbi_nzdZ4BtnOQX2GvPpJlz44&t=0s) to remind yourself how to do deploy your backend code
 
 ### frontend
 * Ensure your front end has an `index.js` and you have installed Express via `npm i express` so you can serve your front end code through Heroku
