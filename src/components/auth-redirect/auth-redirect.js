@@ -14,24 +14,24 @@ class AuthRedirect extends React.Component {
 
     if (isRegisteredRoute) {
       if (token) {
-        return <Redirect to={routes.DASHBOARD_ROUTE}/>;
+        return <Redirect to={routes.DASHBOARD_ROUTE} />;
       }
-
       return null;
-    }
+    } 
 
     if (!token) {
-      return <Redirect to={routes.ROOT_ROUTE}/>;
+      return <Redirect to={routes.ROOT_ROUTE} />;
     }
     return null;
   }
 
   render() {
+    // location comes from props directly, token comes from the Redux store
     const { location, token } = this.props;
     const { pathname } = location;
     return (
       <div className="auth-redirect">
-      { this.renderFinalDestination(pathname, token) }
+        { this.renderFinalDestination(pathname, token) }
       </div>
     );
   }

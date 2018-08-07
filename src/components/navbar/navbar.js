@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import googleBtn from '../../../assets/google-btn-light.png';
-
 import * as authActions from '../../actions/auth';
 import * as routes from '../../lib/routes';
+import googleBtn from '../../assets/google-btn-light.png';
+
 
 const mapStateToProps = state => ({
   loggedIn: !!state.token, // double !! coerces it a boolean
@@ -20,7 +20,7 @@ class Navbar extends React.Component {
     const baseUrl = 'https://accounts.google.com/o/oauth2/v2/auth?';
     const redirect = `redirect_uri=${API_URL}/oauth/google`;
     const scope = '&scope=openid%20email%20profile';
-    const clientId = `&client_id=${GOOGLE_OAUTH_ID.trim()}`; //eslint-disable-line
+    const clientId = `&client_id=${GOOGLE_OAUTH_ID.trim()}`;
     const prompt = '&prompt=consent%20select_account';
     const responseType = '&response_type=code';
     return `${baseUrl}${redirect}${scope}${clientId}${prompt}${responseType}`;
