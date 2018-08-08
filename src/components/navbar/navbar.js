@@ -32,7 +32,7 @@ class Navbar extends React.Component {
       <li><Link to={routes.ROOT_ROUTE}>Home</Link></li>
       <li><Link to={routes.LOGIN_ROUTE}>Login</Link></li>
       <li><Link to={routes.SIGNUP_ROUTE}>Sign up</Link></li>
-      <li><a href={ this.setGoogleOauthUrl() }><img src= { googleBtn }/></a></li>
+      <li><a href={ this.setGoogleOauthUrl() }><img src={ googleBtn }/></a></li>
     </ul>;
 
     const JSXLoggedIn = //eslint-disable-line
@@ -48,7 +48,7 @@ class Navbar extends React.Component {
     const { loggedIn, doLogout } = this.props;
     return (
       <header className="header">
-        <h1>Wannabe Facebook</h1>
+        <h1>Welcome</h1>
         <nav>
           {this.renderJSX(loggedIn)}
         </nav>

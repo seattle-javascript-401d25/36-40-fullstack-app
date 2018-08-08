@@ -107,8 +107,8 @@ export default class ImageForm extends React.Component {
   }
 
   renderFile = (fileType) => {
-    if (fileType.toLowerCase().includes('audio')) {
-      return <audio src={this.state.preview} controls></audio>;
+    if (fileType.toLowerCase().includes('img')) {
+      return <img src={this.state.preview} controls></img>;
     }
     return <img src={ this.state.preview } />;
   }
@@ -140,7 +140,7 @@ export default class ImageForm extends React.Component {
             name="title"
             onChange={ this.handleChange }
           />
-        <button type="submit">Upload a File!</button>
+        <button type="submit">Upload a File</button>
       </form>
     );
   }
